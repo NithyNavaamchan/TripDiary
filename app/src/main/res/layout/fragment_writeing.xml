@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".WriteingFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="About My Trip Diary"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="33dp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:ems="10"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine"
+        android:text="My Trip Diary is a simple and intuitive mobile app designed to help you document and cherish your travel experiences. Whether you're a globetrotter exploring new destinations or an occasional traveler, this app is here to assist you in creating and organizing your personal travel diary." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Contact"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="For any questions, feedback, or support, please feel free to reach out to us at support@mytripdiary.com. We value your input and are dedicated to enhancing your experience with My Trip Diary."
+        android:textStyle="bold"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+</FrameLayout>
