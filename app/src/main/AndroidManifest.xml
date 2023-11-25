@@ -42,9 +42,7 @@
             android:name=".SignupActivity"
             android:exported="false" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDPHWncHsTcidQWNZCvZ2r27L_dYRJA-zo" />
+
 
         <activity
             android:name=".WelcomeActivity"
